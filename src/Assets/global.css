@@ -1,0 +1,11 @@
+:is(:root, :root[data-theme='neutral']) {
+	--color-background: #c1c1c1;
+}
+
+:root[data-theme='dark'] {
+	--color-background: #000000;
+}
+
+:root[data-theme='light'] {
+	--color-background: #ffffff;
+}
