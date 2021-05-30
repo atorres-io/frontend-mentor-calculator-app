@@ -1,5 +1,5 @@
-@import './Frameworks/normalize.css';
-@import './Frameworks/atorres-io.css';
+@import './frameworks/normalize.css';
+@import './frameworks/atorres-io.css';
 @import './global.css';
 @import './general.css';
 @import './utilities.css';

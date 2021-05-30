@@ -1,5 +1,5 @@
 import React from 'react';
-import Calculator from './Pages/Calculator';
+import Calculator from './pages/Calculator';
 
 function App() {
 	return <Calculator />;
