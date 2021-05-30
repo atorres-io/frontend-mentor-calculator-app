@@ -6,15 +6,15 @@ plugins: [
 		short_name: 'CPWA',
 		description:
 			'Frontend Mentor challenge on an Calculator Progressive Web App',
-		crossorigin: 'use-credentials', //can be null, use-credentials or anonymous
+		crossorigin: 'use-credentials',
 		icons: [
 			{
-				src: path.resolve('src/Assets/Images/logoX.png'),
-				sizes: [96, 128, 192, 256, 384, 512], // multiple sizes
+				src: path.resolve('src/Assets/Images/logo-x.png'),
+				sizes: [96, 128, 192, 256, 384, 512],
 			},
 			{
 				src: path.resolve('src/Assets/Images/large-icon.png'),
-				size: '1024x1024', // you can also use the specifications pattern
+				size: '1024x1024',
 			},
 			{
 				src: path.resolve('src/Assets/Images/maskable-icon.png'),
