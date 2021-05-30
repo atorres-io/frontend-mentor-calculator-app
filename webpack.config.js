@@ -9,15 +9,15 @@ plugins: [
 		crossorigin: 'use-credentials',
 		icons: [
 			{
-				src: path.resolve('src/Assets/Images/logo-x.png'),
+				src: path.resolve('src/assets/images/logo-x.png'),
 				sizes: [96, 128, 192, 256, 384, 512],
 			},
 			{
-				src: path.resolve('src/Assets/Images/large-icon.png'),
+				src: path.resolve('src/assets/images/large-icon.png'),
 				size: '1024x1024',
 			},
 			{
-				src: path.resolve('src/Assets/Images/maskable-icon.png'),
+				src: path.resolve('src/assets/images/maskable-icon.png'),
 				size: '1024x1024',
 				purpose: 'maskable',
 			},
