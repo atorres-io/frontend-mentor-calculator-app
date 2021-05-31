@@ -1,11 +1,20 @@
 :is(:root, :root[data-theme='neutral']) {
 	--color-background: #c1c1c1;
+	--color-thumb: ;
+	--color-track: ;
+	--color-light: #ffffff;
 }
 
 :root[data-theme='dark'] {
 	--color-background: #000000;
+	--color-thumb: ;
+	--color-track: ;
+	--color-light: #ffffff;
 }
 
 :root[data-theme='light'] {
 	--color-background: #ffffff;
+	--color-thumb: ;
+	--color-track: ;
+	--color-light: #ffffff;
 }

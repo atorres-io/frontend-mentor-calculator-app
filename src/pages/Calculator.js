@@ -1,8 +1,9 @@
 import React from 'react';
+import ThemeSlider from '../components/ThemeSlider';
 
 class Calculator extends React.Component {
 	render() {
-		return <h1>Hello</h1>;
+		return <ThemeSlider />;
 	}
 }
 
