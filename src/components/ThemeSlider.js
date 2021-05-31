@@ -20,8 +20,8 @@ class ThemeSlider extends React.Component {
 
 	handleColorScheme(e) {
 		const COLORS_SCHEME = ['neutral', 'light', 'dark'];
-		let selector = e.target.value;
-		let newColorScheme = COLORS_SCHEME[selector - 1];
+		const selector = e.target.value;
+		const newColorScheme = COLORS_SCHEME[selector - 1];
 
 		this.setState(
 			{ colorScheme: newColorScheme },
