@@ -1,20 +1,56 @@
 :is(:root, :root[data-theme='neutral']) {
-	--color-background: #c1c1c1;
-	--color-thumb: ;
-	--color-track: ;
-	--color-light: #ffffff;
+	--color-background: #3b4664;
+	--color-track: #242c42;
+	--color-thumb: #d13f2e;
+	--color-font-theme: #ffffff;
+	--color-font-123: #ffffff;
+	--color-screen: #191f32;
+	--color-value: #ffffff;
+	--color-keypad: #232c44;
+	--color-button-number: #e8e2db;
+	--color-font-button-number: #46454a;
+	--color-button-del: #64729a;
+	--color-font-button-del: #ffffff;
+	--color-button-reset: #64729a;
+	--color-font-button-reset: #ffffff;
+	--color-button-result: #d13f2e;
+	--color-font-button-result: #ffffff;
 }
 
 :root[data-theme='dark'] {
-	--color-background: #000000;
-	--color-thumb: ;
-	--color-track: ;
-	--color-light: #ffffff;
+	--color-background: #160729;
+	--color-track: #1c0735;
+	--color-thumb: #00dece;
+	--color-font-theme: #eedc5a;
+	--color-font-123: #eedc5a;
+	--color-screen: #1c0735;
+	--color-value: #eedc5a;
+	--color-keypad: #232c44;
+	--color-button-number: #331a4e;
+	--color-font-button-number: #eedc5a;
+	--color-button-del: #57087a;
+	--color-font-button-del: #ffffff;
+	--color-button-reset: #57087a;
+	--color-font-button-reset: #ffffff;
+	--color-button-result: #00dece;
+	--color-font-button-result: #393733;
 }
 
 :root[data-theme='light'] {
-	--color-background: #ffffff;
-	--color-thumb: ;
-	--color-track: ;
-	--color-light: #ffffff;
+	--color-background: #e5e5e5;
+	--color-track: #d0cece;
+	--color-thumb: #c85401;
+	--color-font-theme: #000000;
+	--color-font-123: #000000;
+	--color-screen: #efefef;
+	--color-value: #000000;
+	--color-keypad: #232c44;
+	--color-button-number: #e6e5de;
+	--color-font-button-number: #393733;
+	--color-button-del: #388287;
+	--color-font-button-del: #ffffff;
+	--color-button-reset: #388287;
+	--color-font-button-reset: #ffffff;
+	--color-button-result: #c85401;
+	--color-font-button-result: #ffffff;
 }

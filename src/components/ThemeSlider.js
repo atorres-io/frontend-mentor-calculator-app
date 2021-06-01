@@ -1,6 +1,8 @@
 import React from 'react';
 import { getColorScheme, updateColorScheme } from '../utils/SchemeService';
 
+const COLORS_SCHEME = ['neutral', 'light', 'dark'];
+
 class ThemeSlider extends React.Component {
 	constructor() {
 		super();
@@ -19,7 +21,6 @@ class ThemeSlider extends React.Component {
 	}
 
 	handleColorScheme(e) {
-		const COLORS_SCHEME = ['neutral', 'light', 'dark'];
 		const selector = e.target.value;
 		const newColorScheme = COLORS_SCHEME[selector - 1];
 
@@ -36,6 +37,7 @@ class ThemeSlider extends React.Component {
 				min='1'
 				max='3'
 				step='1'
+				value={COLORS_SCHEME.indexOf(this.state.colorScheme) + 1}
 				onChange={this.handleColorScheme.bind(this)}
 			></input>
 		);

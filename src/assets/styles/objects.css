@@ -11,7 +11,7 @@ input[type='range']::before {
 	top: 5px;
 	right: 130%;
 	font-size: 0.8em;
-	color: var(--color-light);
+	color: var(--color-font-theme);
 }
 
 input[type='range']::after {
@@ -22,7 +22,7 @@ input[type='range']::after {
 	width: 100%;
 	text-align: center;
 	font-size: 0.8em;
-	color: var(--color-light);
+	color: var(--color-font-123);
 }
 
 input[type='range']::-webkit-slider-runnable-track {
