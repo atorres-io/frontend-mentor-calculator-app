@@ -1,0 +1,37 @@
+.calculator {
+	width: 400px;
+}
+
+.wrapper-header {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 3rem;
+	margin-bottom: 1rem;
+}
+
+.screen {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 100%;
+	height: 7rem;
+	background-color: var(--color-screen);
+	border-radius: var(--radius);
+	padding: var(--white-space);
+	margin-bottom: 1rem;
+}
+
+.keypad {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+	width: 100%;
+	background-color: var(--color-keypad);
+	border-radius: var(--radius);
+	padding: var(--white-space);
+}
