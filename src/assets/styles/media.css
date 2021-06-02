@@ -1,0 +1,6 @@
+@media screen and (max-width: 445px) {
+	.calculator {
+		width: 100%;
+		min-width: 330px;
+	}
+}

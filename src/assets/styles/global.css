@@ -1,4 +1,6 @@
 :is(:root, :root[data-theme='neutral']) {
+	--radius: 12px;
+	--white-space: 20px;
 	--color-background: #3b4664;
 	--color-track: #242c42;
 	--color-thumb: #d13f2e;
@@ -18,6 +20,8 @@
 }
 
 :root[data-theme='dark'] {
+	--radius: 12px;
+	--white-space: 20px;
 	--color-background: #160729;
 	--color-track: #1c0735;
 	--color-thumb: #00dece;
@@ -37,6 +41,8 @@
 }
 
 :root[data-theme='light'] {
+	--radius: 12px;
+	--white-space: 20px;
 	--color-background: #e5e5e5;
 	--color-track: #d0cece;
 	--color-thumb: #c85401;
@@ -44,7 +50,7 @@
 	--color-font-123: #000000;
 	--color-screen: #efefef;
 	--color-value: #000000;
-	--color-keypad: #232c44;
+	--color-keypad: #d6cccd;
 	--color-button-number: #e6e5de;
 	--color-font-button-number: #393733;
 	--color-button-del: #388287;

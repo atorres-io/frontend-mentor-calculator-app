@@ -2,7 +2,7 @@ import React from 'react';
 
 class Screen extends React.Component {
 	render() {
-		return <></>;
+		return <section className='screen'></section>;
 	}
 }
 

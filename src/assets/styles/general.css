@@ -10,9 +10,13 @@ body {
 	min-height: 100vh;
 	background-color: transparent;
 	font-size: 18px;
+	padding: 0 var(--white-space);
 }
 
 div[id='root'] {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 100%;
 	height: auto;
 	min-height: 100vh;
