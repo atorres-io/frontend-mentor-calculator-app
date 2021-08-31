@@ -1,4 +1,5 @@
 html {
+	box-sizing: border-box;
 	background: var(--color-background);
 	scroll-behavior: smooth;
 	-webkit-tap-highlight-color: transparent;
@@ -9,7 +10,7 @@ body {
 	height: auto;
 	min-height: 100vh;
 	background-color: transparent;
-	font-size: 18px;
+	font-size: 16px;
 	padding: 0 var(--white-space);
 }
 

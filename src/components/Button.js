@@ -1,6 +1,11 @@
 import React from 'react';
 
 class Button extends React.Component {
+	constructor(props) {
+		super(props);
+		this.customAttribute = { [`data-${this.props.type}`]: this.props.value };
+	}
+
 	bigButton() {
 		return this.props.type === 'reset' || this.props.type === 'result'
 			? 'big'
@@ -9,7 +14,13 @@ class Button extends React.Component {
 
 	render() {
 		return (
-			<div className={`button ${this.props.type} ${this.bigButton()}`}></div>
+			<div
+				className={`button ${this.props.type} ${this.bigButton()}`.trim()}
+				onClick={() => console.log('click')}
+				{...this.customAttribute}
+			>
+				{this.props.value}
+			</div>
 		);
 	}
 }
