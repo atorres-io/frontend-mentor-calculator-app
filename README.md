@@ -30,7 +30,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+<img src='./src/assets/images/final/design-desktop-neutral.png' alt='Design Desktop Neutral' width='520' />
+<img src='./src/assets/images/final/design-mobile-light.png' alt='Design Mobile Light' width='320' />
+<img src='./src/assets/images/final/design-mobile-dark.png' alt='Design Mobile Dark' width='320' />
 
 ### Links
 
