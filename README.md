@@ -1,9 +1,9 @@
 # Frontend Mentor - Calculator app [![Netlify Status](https://api.netlify.com/api/v1/badges/22a4cf7e-ce3b-4e66-a262-a581c226c185/deploy-status)](https://app.netlify.com/sites/wizardly-hoover-860206/deploys)
 
-[![Lighthouse Status](https://img.shields.io/badge/-Performance%20100-09864c?style=flat-square&logo=lighthouse&logoColor=white)](https://app.netlify.com/sites/wizardly-hoover-860206/deploys)
-[![Lighthouse Status](https://img.shields.io/badge/-Accessibility%20100-09864c?style=flat-square&logo=lighthouse&logoColor=white)](https://app.netlify.com/sites/wizardly-hoover-860206/deploys)
+[![Lighthouse Status](https://img.shields.io/badge/-Performance%2098-09864c?style=flat-square&logo=lighthouse&logoColor=white)](https://app.netlify.com/sites/wizardly-hoover-860206/deploys)
+[![Lighthouse Status](https://img.shields.io/badge/-Accessibility%2077-ff7733?style=flat-square&logo=lighthouse&logoColor=white)](https://app.netlify.com/sites/wizardly-hoover-860206/deploys)
 [![Lighthouse Status](https://img.shields.io/badge/-Best%20Practices%20100-09864c?style=flat-square&logo=lighthouse&logoColor=white)](https://app.netlify.com/sites/wizardly-hoover-860206/deploys)
-[![Lighthouse Status](https://img.shields.io/badge/-SEO%20100-09864c?style=flat-square&logo=lighthouse&logoColor=white)](https://app.netlify.com/sites/wizardly-hoover-860206/deploys)
+[![Lighthouse Status](https://img.shields.io/badge/-SEO%2091-09864c?style=flat-square&logo=lighthouse&logoColor=white)](https://app.netlify.com/sites/wizardly-hoover-860206/deploys)
 
 This is a solution to the [Calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 

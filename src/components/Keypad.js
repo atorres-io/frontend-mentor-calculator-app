@@ -6,8 +6,8 @@ class Keypad extends React.Component {
 	render() {
 		return (
 			<div className='keypad'>
-				{buttonsList.map(({ type, value }) => {
-					return <Button type={type} value={value} key={value} />;
+				{buttonsList.map(({ type, code, value }) => {
+					return <Button type={type} code={code} value={value} key={value} />;
 				})}
 			</div>
 		);

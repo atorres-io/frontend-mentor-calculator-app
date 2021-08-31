@@ -1,9 +1,10 @@
 import React from 'react';
+import OperationsService from '../utils/OperationsService';
 
 class Button extends React.Component {
 	constructor(props) {
 		super(props);
-		this.customAttribute = { [`data-${this.props.type}`]: this.props.value };
+		this.customAttribute = { 'data-code': this.props.code };
 	}
 
 	bigButton() {
@@ -12,11 +13,16 @@ class Button extends React.Component {
 			: '';
 	}
 
+	pulse(e) {
+		const operator = e.target.dataset.code;
+		new OperationsService(operator);
+	}
+
 	render() {
 		return (
 			<div
 				className={`button ${this.props.type} ${this.bigButton()}`.trim()}
-				onClick={() => console.log('click')}
+				onClick={this.pulse.bind(this)}
 				{...this.customAttribute}
 			>
 				{this.props.value}
