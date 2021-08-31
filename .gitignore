@@ -2,6 +2,8 @@
 # React
 # ______________________
 
+private
+
 # dependencies
 /node_modules
 /.pnp

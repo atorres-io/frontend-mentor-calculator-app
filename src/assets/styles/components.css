@@ -13,6 +13,7 @@
 }
 
 .screen {
+	/* Wrapper */
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
@@ -22,6 +23,11 @@
 	border-radius: var(--radius);
 	padding: var(--white-space);
 	margin-bottom: 1rem;
+	overflow-x: hidden;
+
+	/* Values */
+	color: var(--color-value);
+	font-size: 32px;
 }
 
 .keypad {

@@ -2,10 +2,12 @@ import React from 'react';
 import { getColorScheme, updateColorScheme } from '../utils/SchemeService';
 
 const COLORS_SCHEME = ['neutral', 'light', 'dark'];
+const COLORS_CODE = ['#3a4764', '#e6e6e6', '#160628'];
 
 class ThemeSlider extends React.Component {
 	constructor() {
 		super();
+		this.meta = document.querySelector('meta[name="theme-color"]');
 		this.state = {
 			colorScheme: 'neutral',
 		};
@@ -23,11 +25,13 @@ class ThemeSlider extends React.Component {
 	handleColorScheme(e) {
 		const selector = e.target.value;
 		const newColorScheme = COLORS_SCHEME[selector - 1];
+		const newColorCode = COLORS_CODE[selector - 1];
 
 		this.setState(
 			{ colorScheme: newColorScheme },
 			updateColorScheme(newColorScheme)
 		);
+		this.meta.setAttribute('content', newColorCode);
 	}
 
 	render() {

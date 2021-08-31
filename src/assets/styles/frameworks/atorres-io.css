@@ -5,7 +5,12 @@
 :is(*, *:before, *::after) {
 	margin: 0;
 	padding: 0;
+	border: 0;
+	outline: none;
 	box-sizing: border-box;
+	vertical-align: baseline;
+	font-size: 100%;
+	font-family: 'Spartan', sans-serif;
 }
 
 /* ====================
@@ -21,22 +26,13 @@ img {
 	vertical-align: top;
 	object-fit: contain;
 	object-position: center center;
-	font-family: 'Rubik', sans-serif;
 	font-size: 1rem;
-	color: var(--color-neutral);
-	font-weight: var(--weight-normal);
 	text-align: center;
 }
 
-:is(button, select, input) {
+:is(button, select, input, input:disabled) {
 	appearance: none;
 	-webkit-appearance: none;
-}
-
-input:disabled {
-	appearance: none;
-	-webkit-appearance: none;
-	-webkit-text-fill-color: var(--color-neutral);
 }
 
 hr {
@@ -49,6 +45,14 @@ ul {
 
 a {
 	text-decoration: none;
+}
+
+video[autoplay]:not([muted]) {
+	display: none;
+}
+
+a[href^='http']:empty::before {
+	content: attr(href);
 }
 
 /* ====================
